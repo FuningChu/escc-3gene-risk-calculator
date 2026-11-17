@@ -1,0 +1,33 @@
+{
+  "signature_genes": [
+    "ZNF34",
+    "LUC7L2",
+    "ZNF710"
+  ],
+  "weighting": "equal",
+  "zscore_sd": "population",
+  "high_risk_rule": "score >= cohort_or_reference_median",
+  "reference_cohort": "GSE53625 SuperSeries tumor samples (GSE53624 n=119 + GSE53622 n=60)",
+  "n": 179,
+  "n_events": 106,
+  "genes": {
+    "ZNF34": {
+      "mean": 12.091687061452513,
+      "sd": 0.3630001160618058
+    },
+    "LUC7L2": {
+      "mean": 8.673137363500931,
+      "sd": 0.6099656164912367
+    },
+    "ZNF710": {
+      "mean": 11.779352231843575,
+      "sd": 1.1049788723909295
+    }
+  },
+  "score_median_cutoff": 0.039369471743473,
+  "probe_map_note": "GPL18109 60-mer exact match (sense or antisense) to Ensembl cDNA/genomic: ZNF34 probe 44252; LUC7L2 probes 133965,98533,5603,33190,100631,141492 (mean of 6); ZNF710 probe 12548.",
+  "accessions": {
+    "training": "TCGA-ESCC (UCSC Xena)",
+    "validation": "GSE53625 (GEO)"
+  }
+}
